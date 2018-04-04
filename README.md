@@ -1,6 +1,6 @@
 # Linear Regression in Python 
 
-1.  **[1D Regression](https://github.com/nkuhta/Numpy-Stack/tree/master/Numpy)** - Analytical solution for 1D linear regression in vectorized form.
+1.  **[1D Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/linear_1D.py)** - Analytical solution for 1D linear regression in vectorized form.
 
 ##  References
 1.  **Linear Regression in Python** - Udemy   
