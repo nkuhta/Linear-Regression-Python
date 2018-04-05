@@ -35,9 +35,16 @@ b = (D1*y.mean() - x.mean()*x.dot(y))/(D1-D2)
 print('a = ',a)
 print('b = ',b)
 
-# best fit y=ax+b line 
+# best fit y=ax+b line
 yhat = a*x+b
 
 plt.scatter(x,y)
 plt.plot(x,yhat)
 plt.show()
+
+#  R^2 value
+SSres = (y-yhat).dot(y-yhat)
+SStot = (y-y.mean()).dot(y-y.mean())
+r_squared = 1 - SSres/SStot
+
+print('r_squared = ',r_squared)
