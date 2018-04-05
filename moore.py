@@ -49,5 +49,6 @@ print('a = ', a, "b = ", b)
 print('r_squared = ',r_squared)
 print('time to double (years) = ',np.log(2)/a)
 
-import linear_coeff as lm
+import linear_model as lm
 print(lm.lm_coeff(x,y))
+print(lm.r_squared(y,yhat))

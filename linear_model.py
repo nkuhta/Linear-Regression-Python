@@ -10,5 +10,15 @@ def lm_coeff(x,y):
     # calculate a and b (vectorized)
     a = (x.dot(y) - x.sum()*y.mean())/(D1-D2)
     b = (D1*y.mean() - x.mean()*x.dot(y))/(D1-D2)
-
+    # linear (slope,intercept) coefficients
     return (a,b)
+
+#  Input np y and y-hat (prediction) arrays
+#  return r-squared quality of fit metric
+
+def r_squared(y,yhat):
+    SSres = (y-yhat).dot(y-yhat)
+    SStot = (y-y.mean()).dot(y-y.mean())
+    #  R^2 value
+    result = 1 - SSres/SStot
+    return result
