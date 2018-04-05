@@ -1,5 +1,6 @@
 
 #  Input np x and y arrays
+#  return output (a,b) for best-fit y = a*x + b  line
 
 def lm_coeff(x,y):
     # sum(xi^2) - first demoninator term
