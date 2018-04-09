@@ -13,10 +13,15 @@ def coeff_1D(x,y):
     # linear (slope,intercept) coefficients
     return (a,b)
 
-#  Input np x and y arrays (note the 1's already added to the first X column)
+#  Input np x and y arrays
+#  add_column == True adds the extra column of 1's 
 #  return output weights for best-fit of multi-dimensional
 
-def coeff_multi(x,y):
+
+def coeff_multi(x,y,add_column):
+    if add_column == True:
+        #  if you need to add the first 1's columns
+        x = np.concatenate((np.ones(len(y))[:, np.newaxis], x), axis=1)
     #  calculate the weights
     w = np.linalg.solve(np.dot(x.T,x), np.dot(x.T,y))
     return w
