@@ -2,18 +2,25 @@
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
+import sys
 
 #load data
 x = []
 y = []
 for line in open('data_2d.csv'):
     x1,x2,yi = line.split(',')
-    x.append([1.0,float(x1),float(x2)])
+    #x.append([1.0,float(x1),float(x2)])
+    x.append([float(x1),float(x2)])
     y.append(float(yi))
 
 #  turn x and y into numpy arrays
 x = np.array(x)
 y = np.array(y)
+
+# adding ones later using nparray
+x = np.concatenate((np.ones(len(y))[:, np.newaxis], x), axis=1)
+#print(x)
+#sys.exit()
 
 # plot the data
 fig = plt.figure()
@@ -30,3 +37,4 @@ yhat = np.dot(x,w)
 import linear_model as lm
 print("r_squared: ",lm.r_squared(y,yhat))
 print("weight coefficients: ",w)
+print(lm.coeff_multi(x,y))
