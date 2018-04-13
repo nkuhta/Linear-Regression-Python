@@ -2,9 +2,12 @@
 
 **[1D Linear Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/linear_1D.py)**  
 &ensp; Analytical solution for 1D linear regression in vectorized form.  
-**[Moore's Law](https://github.com/nkuhta/Linear-Regression-Python/blob/master/moore.py)** - Using linear regression for exponentially growing data.  
-**[2D Linear Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/linear_2D.py)** - Calculate weights and constant coefficients for 2D linear system.  
-**[Polynomial Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/polynomial_regression.py)** - Quadradic polynomial regression analysis. 
+**[Moore's Law](https://github.com/nkuhta/Linear-Regression-Python/blob/master/moore.py)**  
+&ensp; Using linear regression for exponentially growing data.  
+**[2D Linear Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/linear_2D.py)**  
+&ensp; Calculate weights and constant coefficients for 2D linear system.  
+**[Polynomial Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/polynomial_regression.py)**  
+&ensp; Quadradic polynomial regression analysis. 
 
 
 ##  References
