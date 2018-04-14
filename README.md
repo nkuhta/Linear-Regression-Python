@@ -7,8 +7,8 @@
 **[2D Linear Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/linear_2D.py)**  
 &ensp; Calculate weights and constant coefficients for 2D linear system.  
 **[Polynomial Regression](https://github.com/nkuhta/Linear-Regression-Python/blob/master/polynomial_regression.py)**  
-&ensp; Quadradic polynomial regression analysis. 
-**[Blood Pressure (2D Regression)]**  
+&ensp; Quadradic polynomial regression analysis.  
+**[Blood Pressure (2D Regression)](https://github.com/nkuhta/Linear-Regression-Python/blob/master/systolic.py)**  
 &ensp; Predict systolic blood pressure from age and weight. 
 
 ##  References
