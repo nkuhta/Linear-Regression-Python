@@ -15,6 +15,10 @@
 **[L2 Regularization](https://github.com/nkuhta/Linear-Regression-Python/blob/master/L2_regularization.py)**  
 &ensp; Using L2 regularization to find better fit for linear data with outliers. 
 
+#  Gradient Descent
+**[Gradient Descent](https://github.com/nkuhta/Linear-Regression-Python/blob/master/gradient_descent.py)**  
+&ensp; Gradient descent method for singular feature matrices. 
+
 ##  References
 1.  **Linear Regression in Python** - Udemy   
 	https://www.udemy.com/data-science-linear-regression-in-python
