@@ -33,3 +33,22 @@ def r_squared(y,yhat):
     #  R^2 value
     result = 1 - SSres/SStot
     return result
+
+#  Input numpy x/y feature/target arrays
+#  alpha = learning rate (gradient stepsize)
+#  steps = number of gradient descent steps
+def grad_desc(x,y,alpha,steps,add_column):
+    if add_column == True:
+        #  if you need to add the first 1's columns (constant coeff term)
+        x = np.concatenate((np.ones(len(y))[:, np.newaxis], x), axis=1)
+    # initialize weights
+    D = x.shape[1]
+    np.random.seed(101)
+    w = np.random.randn(D)/np.sqrt(D)
+    for t in range(steps):
+        yhat = x.dot(w)
+        delta = yhat-y
+        w = w - alpha*x.T.dot(delta)
+
+    # weights calculated from gradient descent
+    return w
