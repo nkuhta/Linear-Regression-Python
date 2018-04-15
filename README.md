@@ -11,7 +11,7 @@
 **[Blood Pressure (2D Regression)](https://github.com/nkuhta/Linear-Regression-Python/blob/master/systolic.py)**  
 &ensp; Predict systolic blood pressure from age and weight.  
 
-##  Regularization 
+#  Regularization 
 **[L2 Regularization](https://github.com/nkuhta/Linear-Regression-Python/blob/master/L2_regularization.py)**  
 &ensp; Using L2 regularization to find better fit for linear data with outliers. 
 
