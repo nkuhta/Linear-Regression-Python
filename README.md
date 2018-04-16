@@ -14,7 +14,7 @@
 #  Regularization 
 **[L2 Regularization](https://github.com/nkuhta/Linear-Regression-Python/blob/master/L2_regularization.py)**  
 &ensp; Using L2 regularization to find better fit for linear data with outliers by encouraging smaller weights.   
-**[L1 Regularization]()**  
+**[L1 Regularization](https://github.com/nkuhta/Linear-Regression-Python/blob/master/L1_regularization.py)**  
 &ensp; Using L1 regularization, absolute coefficient value cost function term, to encourage sparse coefficients.  
 
 #  Gradient Descent
